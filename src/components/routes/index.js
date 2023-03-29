@@ -1,21 +1,19 @@
 import { createRouter, createWebHistory } from "vue-router"
-// Import your newly created layout using 'Var_Name' from '@/path'
-import Module1_1 from '@/components/Module1/Landing.vue';
-import Module1_2 from '@/component/Module1/Remittance-Inquiry';
+import Landing from '@/components/Module1/Landing.vue';
+import RemittanceInquiry from '../Module1/RemittanceInquiry.vue';
 
-// import { createApp } from "vue";
 
 //create a const routes and insert your path,name,component
 const routes = [
     {
         path: '/',
         name: 'landing',
-        component: Module1_1
+        component: Landing
     },
     {
-        path: '/',
-        name: 'landing',
-        component: Module1_2
+        path: '/remittance',
+        name: 'RemittanceInquiry',
+        component: RemittanceInquiry
     },
 ]
 

@@ -8,14 +8,14 @@
 
     <div class="d-flex justify-content-between align-items-end vw-100 h-25">
       <div class="h-10 w-10">
-        <router-link to="/">Remittance Inquiry</router-link>
+        <router-link to="/remittance">Remittance Inquiry</router-link>
       </div>
-      <div class=" text-center">
+      <div class=" text-center -">
         <p class=" mb-0">Powered by</p>
         <img src="@/assets/Icons/AllCash-Logo.png" alt="AllCashLogo" class="h-auto w-auto">
       </div>
       <div class="h-10 w-10">
-        <router-link to="/">Login Now <i class="bi bi-arrow-right-circle"></i></router-link>
+        <router-link to="/">Login Now <b-icon-arrow-up></b-icon-arrow-up></router-link>
         
       </div>
     </div>
@@ -23,6 +23,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'LandingPage',
 
