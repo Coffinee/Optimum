@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router"
 // Import your newly created layout using 'Var_Name' from '@/path'
-import Landing from '@/components/Login/Landing.vue'
+import Module1_1 from '@/components/Module1/Landing.vue';
+import Module1_2 from '@/component/Module1/Remittance-Inquiry';
 
 // import { createApp } from "vue";
 
@@ -9,7 +10,12 @@ const routes = [
     {
         path: '/',
         name: 'landing',
-        component: Landing
+        component: Module1_1
+    },
+    {
+        path: '/',
+        name: 'landing',
+        component: Module1_2
     },
 ]
 
